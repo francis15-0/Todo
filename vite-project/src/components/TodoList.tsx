@@ -10,7 +10,7 @@ export default function TodoList({todos, setTodos}: props):JSX.Element{
         <>
             {
                 todos.map((e)=>(
-                    <p>{e.todo}</p>
+                    <li>{e.todo}</li>
                 ))
             }
         </>
