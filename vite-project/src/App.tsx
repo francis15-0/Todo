@@ -22,7 +22,7 @@ function App() {
       <section>
         <h1>Taskify</h1>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
-        <TodoList todos={todos} setTodos={setTodo} />
+        <TodoList todos={todos} setTodos={setTodos} />
       </section>
       
     </>

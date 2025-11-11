@@ -4,5 +4,16 @@ section{
     justify-content: center;
     align-items: center;
     
+    
 }
 
+#root{
+    width: 100VW;
+    height: 100vh;
+    background-color: aqua;
+    margin: 0;
+}
+
+*{
+    margin: 0;
+}
